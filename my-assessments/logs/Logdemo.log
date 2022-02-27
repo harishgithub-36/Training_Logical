@@ -1,0 +1,3 @@
+22:08:46.860 [main] DEBUG com.training.shape.Circle - Circle Constructor is Created Successfully
+22:09:24.966 [main] DEBUG com.training.shape.Square - Square Constructor is created Successfully
+22:09:32.609 [main] DEBUG com.training.shape.Rectangle - Rectangle Constructor is Created Successfully
