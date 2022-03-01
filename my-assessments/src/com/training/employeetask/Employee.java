@@ -1,6 +1,8 @@
 package com.training.employeetask;
 
-public abstract class Employee {
+import java.io.Serializable;
+
+public abstract class Employee implements Serializable {
 	protected String firstName;
 	protected String lastName;
 	protected int employeeid;
@@ -43,6 +45,11 @@ public abstract class Employee {
 
 	public void setEmployeeid(int employeeid) {
 		this.employeeid = employeeid;
+	}
+
+	public String toString() {
+		return "The name of employee is " + firstName + lastName + " with id " + employeeid + " and his pincode is "
+				+ pincode + " having salary " + earnings();
 	}
 
 	public abstract double earnings();
