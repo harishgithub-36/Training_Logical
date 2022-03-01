@@ -15,11 +15,11 @@
 		</Console>
 	</Appenders>
 	<Loggers>
-		<Logger name="com.training.shape" level="debug" additivity="false">
+		<!-- <Logger name="com.training.shape" level="debug" additivity="false">
 			<AppenderRef ref="file" />
-		</Logger>
-		<Root level="error">
-			<AppenderRef ref="file" />
+		</Logger>-->
+		<Root level="trace">
+			
 			<AppenderRef ref="Console" />
 		</Root>
 	</Loggers>
