@@ -1,15 +1,20 @@
 package com.training.employeetask;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 public class BaseSalariedCommissionEmployee extends Employee {
 	private long Sales;
 	private long baseSalary;
 	private Double Salary;
+	private static Logger employeelogger = LogManager.getLogger(BaseSalariedCommissionEmployee.class.getName());
 
 	public BaseSalariedCommissionEmployee(String firstName, String lastName, int employeeid, String pincode,
 			long baseSalary, long sales) {
 		super(firstName, lastName, employeeid, pincode);
 		this.setBaseSalary(baseSalary);
 		this.setSales(sales);
+		employeelogger.info("BaseSalariedCommisionEmployee Constructor Created");
 		// TODO Auto-generated constructor stub
 	}
 

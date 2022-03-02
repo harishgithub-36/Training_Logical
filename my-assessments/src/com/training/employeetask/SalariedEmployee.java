@@ -1,11 +1,16 @@
 package com.training.employeetask;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 public class SalariedEmployee extends Employee {
 	private double Salary;
+	private static Logger employeelogger = LogManager.getLogger(SalariedEmployee.class.getName());
 
 	public SalariedEmployee(String firstName, String lastName, int employeeid, String pincode, double Salary) {
 		super(firstName, lastName, employeeid, pincode);
 		this.setWeeklySalary(Salary);
+		employeelogger.info("SalariedEMployee Constructor Created Successfully");
 		// TODO Auto-generated constructor stub
 	}
 

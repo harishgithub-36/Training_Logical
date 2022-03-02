@@ -5,6 +5,7 @@ public class EmployeeDetails {
 
 	public EmployeeDetails(Employee emp1) {
 		ed = emp1;
+
 		// TODO Auto-generated constructor stub
 	}
 
