@@ -139,7 +139,7 @@ public class DatabaseRegistration {
 
 		System.out.println("-----------------------");
 		if (myRs.next() == false) {
-			System.out.println("677890");
+			System.out.println("Record with given credentials is not present");
 		} else {
 			do {
 				String fname = myRs.getString(1);
