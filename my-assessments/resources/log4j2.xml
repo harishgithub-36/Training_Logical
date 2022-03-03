@@ -10,7 +10,7 @@
 			</PatternLayout>
 			<SizeBasedTriggeringPolicy size="1 KB" />
 		</RollingFile>
-		<RollingFile name="file1" fileName="${filename}/Logdemo1.log" filePattern="${filename}/Logdemo-%d{HH-mm-ss-SSS}.Log">
+		<RollingFile name="file1" fileName="${filename}/Logdemo1.log" filePattern="${filename}/Logdemo1-%d{HH-mm-ss-SSS}.Log">
 			<PatternLayout>
 				<pattern>%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n</pattern>
 			</PatternLayout>
