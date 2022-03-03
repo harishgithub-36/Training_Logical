@@ -1,0 +1,10 @@
+02:00:00.536 [main] INFO  com.training.employeetask.SalariedEmployee - earnings created successfully
+02:00:00.542 [main] INFO  com.training.employeetask.SalariedEmployee - earnings created successfully
+02:00:00.543 [main] INFO  com.training.employeetask.CommissionEmployee - earnings created successfully
+02:00:00.543 [main] INFO  com.training.employeetask.BaseSalariedCommissionEmployee - earnings created successfully
+02:05:30.836 [main] INFO  com.training.employeetask.SalariedEmployee - earnings created successfully
+02:05:30.838 [main] INFO  com.training.employeetask.SalariedEmployee - earnings created successfully
+02:05:30.838 [main] INFO  com.training.employeetask.CommissionEmployee - earnings created successfully
+02:05:30.846 [main] INFO  com.training.employeetask.BaseSalariedCommissionEmployee - earnings created successfully
+02:05:39.108 [main] INFO  com.training.employeetask.SalariedEmployee - earnings created successfully
+02:05:39.110 [main] INFO  com.training.employeetask.SalariedEmployee - earnings created successfully

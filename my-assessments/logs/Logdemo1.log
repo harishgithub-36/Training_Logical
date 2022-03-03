@@ -1,5 +1,2 @@
-01:57:47.998 [main] INFO  com.training.employeetask.BaseSalariedCommissionEmployee - BaseSalariedCommisionEmployee Constructor Created
-01:58:46.557 [main] INFO  com.training.employeetask.CommissionEmployee - CommisionEmployee Constructor Created
-02:00:25.451 [main] INFO  com.training.employeetask.BaseSalariedCommissionEmployee - BaseSalariedCommisionEmployee Constructor Created
-02:17:21.195 [main] INFO  com.training.employeetask.HourlyEmployee - Hourly Constructor Created
-02:18:15.425 [main] INFO  com.training.employeetask.SalariedEmployee - SalariedEMployee Constructor Created Successfully
+02:05:39.110 [main] INFO  com.training.employeetask.CommissionEmployee - earnings created successfully
+02:05:39.115 [main] INFO  com.training.employeetask.BaseSalariedCommissionEmployee - earnings created successfully
