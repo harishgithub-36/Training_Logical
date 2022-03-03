@@ -3,10 +3,10 @@ package com.training.employeetask;
 import java.io.Serializable;
 
 public abstract class Employee implements Serializable {
-	protected String firstName;
-	protected String lastName;
-	protected int employeeid;
-	protected String pincode;
+	public String firstName;
+	public String lastName;
+	public int employeeid;
+	public String pincode;
 
 	public Employee(String firstName, String lastName, int employeeid, String pincode) {
 		this.firstName = firstName;

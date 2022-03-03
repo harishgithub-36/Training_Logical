@@ -17,6 +17,7 @@ public class CommissionEmployee extends Employee {
 
 	@Override
 	public double earnings() {
+		employeelogger.info("earnings created successfully");
 		Salary = (Sales * 0.15);
 		// TODO Auto-generated method stub
 		return Salary;

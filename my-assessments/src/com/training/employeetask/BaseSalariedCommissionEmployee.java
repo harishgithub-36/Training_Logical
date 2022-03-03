@@ -20,6 +20,7 @@ public class BaseSalariedCommissionEmployee extends Employee {
 
 	@Override
 	public double earnings() {
+		employeelogger.info("earnings created successfully");
 		Salary = baseSalary + Sales * (0.12);
 		Salary += baseSalary * (0.1);
 		// TODO Auto-generated method stub

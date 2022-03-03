@@ -31,6 +31,7 @@ public class SalariedEmployee extends Employee {
 
 	@Override
 	public double earnings() {
+		employeelogger.info("earnings created successfully");
 		// TODO Auto-generated method stub
 
 		return getSalary();

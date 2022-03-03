@@ -20,6 +20,7 @@ public class HourlyEmployee extends Employee {
 
 	@Override
 	public double earnings() {
+		employeelogger.info("earnings created successfully");
 		// TODO Auto-generated method stub
 		if (hours > 40) {
 			Salary = 40 * hourlyRate;
