@@ -103,7 +103,7 @@ public class TestShape {
 
 				} else {
 					System.out.println("Please enter valid shapecode");
-					continue;
+					break;
 				}
 			}
 		} catch (Exception e) {
